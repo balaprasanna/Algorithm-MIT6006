@@ -95,19 +95,16 @@ def word_frequencies_for_file(filename):
     line_list = read_file(filename)
     word_list = get_words_from_line_list(line_list)
     freq_mapping = count_frequency(word_list)
-
     print "File",filename,":",
     print len(line_list),"lines,",
     print len(word_list),"words,",
     print len(freq_mapping),"distinct words"
-
     return freq_mapping
 
 def inner_product(D1,D2):
     """
     Inner product between two vectors, where vectors
     are represented as dictionaries of (word,freq) pairs.
-
     Example: inner_product({"and":3,"of":2,"the":5},
                            {"and":4,"in":1,"of":1,"this":2}) = 14.0 
     """
@@ -120,7 +117,6 @@ def inner_product(D1,D2):
 def vector_angle(D1,D2):
     """
     The input is a list of (word,freq) pairs, sorted alphabetically.
-
     Return the angle between these two vectors.
     """
     numerator = inner_product(D1,D2)

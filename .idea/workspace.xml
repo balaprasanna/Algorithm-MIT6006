@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c3b14d-2509-4082-b0a0-5cc596c1cb0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting/PySort.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sorting/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentDistance/DBScan.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentDistance/DocumentDistance.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentDistance/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentDistance/docdist8.py" afterPath="$PROJECT_DIR$/DocumentDistance/docdist8.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm MIT6006.iws" />
@@ -16,6 +17,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Algorithm MIT6006$test.coverage" NAME="test Coverage Results" MODIFIED="1389361570835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DocumentDistance" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -28,10 +32,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="docdist1.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DocumentDistance/docdist1.py">
+      <file leaf-file-name="DocumentDistance.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentDistance/DocumentDistance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="27" selection-start="6067" selection-end="6067" vertical-scroll-proportion="0.44444445" vertical-offset="3600" max-vertical-offset="4240">
+            <state line="9" column="43" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1210">
+              <folding>
+                <element signature="e#43#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentDistance/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="12" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="792">
+              <folding>
+                <element signature="e#43#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBScan.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DocumentDistance/DBScan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="0.19256018" vertical-offset="44" max-vertical-offset="572">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docdist8.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DocumentDistance/docdist8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="45" selection-start="3240" selection-end="3240" vertical-scroll-proportion="0.0" vertical-offset="2508" max-vertical-offset="3322">
               <folding />
             </state>
           </provider>
@@ -40,7 +75,7 @@
       <file leaf-file-name="PySort.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sorting/PySort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="12" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="780">
+            <state line="32" column="12" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="858">
               <folding />
             </state>
           </provider>
@@ -65,14 +100,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Sorting/PySort.py" />
+        <option value="C:/Python27/Lib/site-packages/jieba-0.31-py2.7.egg/jieba/__init__.py" />
+        <option value="$PROJECT_DIR$/DocumentDistance/docdist8.py" />
+        <option value="$PROJECT_DIR$/DocumentDistance/test.py" />
+        <option value="$PROJECT_DIR$/DocumentDistance/DocumentDistance.py" />
+        <option value="$PROJECT_DIR$/DocumentDistance/DBScan.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -100,7 +140,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -115,11 +154,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm MIT6006" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorting" />
+              <option name="myItemId" value="Algorithm-MIT6006" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -129,17 +164,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm MIT6006" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm MIT6006" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm MIT6006" />
+              <option name="myItemId" value="Algorithm-MIT6006" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -149,21 +174,44 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings />
+      <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test">
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DocumentDistance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Algorithm MIT6006" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DocumentDistance/test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,6 +296,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,9 +320,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -314,7 +362,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -343,19 +398,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25354838" sideWeight="0.6759388" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3240612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -375,9 +430,37 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/DocumentDistance/DocumentDistance.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/DocumentDistance/DocumentDistance.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DocumentDistance/docdist1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="27" selection-start="6067" selection-end="6067" vertical-scroll-proportion="0.0" vertical-offset="4246" max-vertical-offset="4664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting/PySort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="12" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DocumentDistance/docdist1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="49" selection-start="1871" selection-end="1871" vertical-scroll-proportion="0.0" vertical-offset="2160" max-vertical-offset="4240">
@@ -406,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting/PySort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="12" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Python/#D:/PythonWorkspace/Algorithm MIT6006/Sorting/PySort.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -426,12 +502,73 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="14.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DocumentDistance/docdist1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="27" selection-start="6067" selection-end="6067" vertical-scroll-proportion="0.44444445" vertical-offset="3600" max-vertical-offset="4240">
+        <state line="173" column="47" selection-start="5520" selection-end="5520" vertical-scroll-proportion="0.0" vertical-offset="3520" max-vertical-offset="4664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting/PySort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="12" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/jieba-0.31-py2.7.egg/jieba/analyse/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="555" selection-end="559" vertical-scroll-proportion="0.4370861" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2393" column="8" selection-start="82017" selection-end="82017" vertical-scroll-proportion="0.33333334" vertical-offset="52495" max-vertical-offset="112178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/jieba-0.31-py2.7.egg/jieba/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.4569536" vertical-offset="660" max-vertical-offset="8514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentDistance/docdist8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="45" selection-start="3240" selection-end="3240" vertical-scroll-proportion="0.0" vertical-offset="1914" max-vertical-offset="3322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentDistance/DocumentDistance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1210">
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentDistance/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="12" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="792">
+          <folding>
+            <element signature="e#43#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocumentDistance/DBScan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="0.19256018" vertical-offset="44" max-vertical-offset="572">
           <folding />
         </state>
       </provider>
