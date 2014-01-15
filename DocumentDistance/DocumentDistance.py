@@ -27,7 +27,7 @@ def get_words_from_text(text):
 
 def delete_nontrivial_word(words):
     for word in words:
-        if re.match(ur"月|年|公司|集团|任",word):
+        if re.match(ur"月|年|公司|集团|任|现任|历任|曾任|兼任|兼",word):
             words.remove(word)
 
 def count_frequency(words):
@@ -52,6 +52,11 @@ def inner_product(D1,D2):
 def vector_angle(D1,D2):
     numerator=inner_product(D1,D2)
     denominator=math.sqrt(inner_product(D1,D1)*inner_product(D2,D2))
+    if denominator==0:
+        print "denominator is 0"
+        print D1
+        print D2
+        return 0
     return 1-numerator/denominator
 
 def pre_process(text):

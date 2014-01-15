@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c3b14d-2509-4082-b0a0-5cc596c1cb0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DocumentDistance/dicname.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentDistance/DocumentDistance.py" afterPath="$PROJECT_DIR$/DocumentDistance/DocumentDistance.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentDistance/PyCluster.py" afterPath="$PROJECT_DIR$/DocumentDistance/PyCluster.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocumentDistance/test.py" afterPath="$PROJECT_DIR$/DocumentDistance/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm MIT6006.iws" />
@@ -32,7 +34,7 @@
       <file leaf-file-name="test.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DocumentDistance/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="41" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.45360824" vertical-offset="528" max-vertical-offset="990">
+            <state line="9" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.28695652" vertical-offset="0" max-vertical-offset="690">
               <folding>
                 <element signature="e#43#52#0" expanded="true" />
               </folding>
@@ -43,7 +45,7 @@
       <file leaf-file-name="PyCluster.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DocumentDistance/PyCluster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="91" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.0" vertical-offset="1842" max-vertical-offset="2992">
+            <state line="117" column="40" selection-start="3564" selection-end="3564" vertical-scroll-proportion="0.0" vertical-offset="2172" max-vertical-offset="3322">
               <folding />
             </state>
           </provider>
@@ -52,7 +54,7 @@
       <file leaf-file-name="DocumentDistance.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DocumentDistance/DocumentDistance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="34" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1342">
+            <state line="34" column="22" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1518">
               <folding />
             </state>
           </provider>
@@ -160,11 +162,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -277,9 +279,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,6 +300,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -384,29 +386,33 @@
       <created>1389600265658</created>
       <updated>1389600265658</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add names for dict">
+      <created>1389600343158</created>
+      <updated>1389600343158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26451612" sideWeight="0.59805286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2683871" sideWeight="0.59805286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40194714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40194714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -497,35 +503,31 @@
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/jieba-0.31-py2.7.egg/jieba/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="273" column="23" selection-start="8071" selection-end="8071" vertical-scroll-proportion="0.23931624" vertical-offset="5894" max-vertical-offset="8536">
-          <folding />
-        </state>
+        <state line="273" column="23" selection-start="8071" selection-end="8071" vertical-scroll-proportion="0.23931624" vertical-offset="5894" max-vertical-offset="8536" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DocumentDistance/DocumentDistance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="34" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1342">
+        <state line="34" column="22" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1518">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/DBHelper/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2068">
-          <folding />
-        </state>
+        <state line="15" column="8" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2068" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DocumentDistance/PyCluster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="91" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.0" vertical-offset="1842" max-vertical-offset="2992">
+        <state line="117" column="40" selection-start="3564" selection-end="3564" vertical-scroll-proportion="0.0" vertical-offset="2172" max-vertical-offset="3322">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DocumentDistance/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="41" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.45360824" vertical-offset="528" max-vertical-offset="990">
+        <state line="9" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.28695652" vertical-offset="0" max-vertical-offset="690">
           <folding>
             <element signature="e#43#52#0" expanded="true" />
           </folding>
