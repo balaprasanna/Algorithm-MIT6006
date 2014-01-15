@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+    # -*- coding: utf-8 -*-
 __author__ = 'zym'
 import cProfile
 
@@ -80,19 +80,29 @@ Note that a window may contain other characters not in S.
 
 def solve_b(array,char_set):
     array_length=len(array)
-    char_count=len(char_set)
     char_dict=convert_to_dict(char_set)
-    char_finded={}
-    char_finded['min']=array_length
-    window_width=array_length
+    char_length=len(char_dict)
+    finded_dict={}
+    first_window=True
     for i in range(array_length):
-        if find_in_dict(array[i],char_dict):   #O(1)
-            if find_in_dict(array[i],char_finded):
-                update(char_finded)
-            else:
-                char_finded[array[i]]=i
-            if len(char_finded)==char_count: #all char finded
-                pass
+        if find_in_dict(array[i],char_dict):        #O(1)
+            finded_dict[array[i]]=i                 #O(1)
+            if first_window and len(finded_dict)==char_length:
+                first_window=False
+                window_left=get_min(finded_dict)    #O(S)
+                window_width=i-window_left+1
+            elif not first_window:
+                min_value=get_min(finded_dict)      #O(S)
+                new_width=i-min_value+1
+                if new_width<window_width:
+                    window_width=new_width
+                    window_left=min_value
+    print "left index:",window_left
+    print "width:",window_width
+
+
+def get_min(dict):
+    return min(dict.values())
 
 def convert_to_dict(array):
     dict={}
@@ -102,13 +112,10 @@ def convert_to_dict(array):
 
 def find_in_dict(key,dict):
     try:
-        return dict['key']==True
+        return dict[key]==True
     except:
         return False
 
-def update(char,index,dict):
-    dict[char]=index
-    pass
 
 
 '''
@@ -120,4 +127,6 @@ def run(function_name,params):
 
 
 if __name__=="__main__":
-    cProfile.run("run()")
+    text="abcedabecdtttbafjiaewomnfovirneglks;jgioersmngs;ldjgirohrgsoj"
+    chars="jier"
+    solve_b(text,chars)

@@ -6,11 +6,10 @@ import string
 import DocumentDistance
 import math
 import PyCluster
-import DBHelper
 from Sorting import PySort
 dict={}
-dict['a']=True
-dict['b']=True
-print len(dict)
+dict['a']=(5,1)
+dict['b']=(7,2)
+print dict
 
 
