@@ -75,5 +75,6 @@ class TestPS1Part1(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    print "begin"
     suite = unittest.TestLoader().loadTestsFromTestCase(TestPS1Part1)
     unittest.TextTestRunner(verbosity=2).run(suite)
