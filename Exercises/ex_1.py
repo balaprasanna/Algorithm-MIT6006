@@ -128,5 +128,5 @@ def run(function_name,params):
 
 if __name__=="__main__":
     text="abcedabecdtttbafjiaewomnfovirneglks;jgioersmngs;ldjgirohrgsoj"
-    chars="jier"
+    chars="jieba"
     solve_b(text,chars)

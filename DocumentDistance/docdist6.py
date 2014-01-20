@@ -138,7 +138,6 @@ def merge(L,R):
 def insertion_sort(A):
     """
     Sort list A into order, in place.
-
     From Cormen/Leiserson/Rivest/Stein,
     Introduction to Algorithms (second edition), page 17,
     modified to adjust for fact that Python arrays use 

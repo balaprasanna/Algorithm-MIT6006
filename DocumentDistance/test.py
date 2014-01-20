@@ -7,9 +7,7 @@ import DocumentDistance
 import math
 import PyCluster
 from Sorting import PySort
-dict={}
-dict['a']=(5,1)
-dict['b']=(7,2)
-print dict
 
-
+a=[9,8,7,6,5,4,3,2,1]
+PySort.merge_sort(a)
+print a
